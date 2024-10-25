@@ -21,5 +21,10 @@ namespace TimeProj
             minute = min;
             second = sec;
         }
+        public static void WriteTime(Time t)
+        {
+            Console.WriteLine(t.hour + ":" + t.minute + ":" + t.second);
+        }
+
     }
 }

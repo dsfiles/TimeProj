@@ -16,6 +16,7 @@
             Console.WriteLine(t2.second);
 
             Console.WriteLine($"{t2.hour}:{t2.minute}:{t2.second}");
+            Time.WriteTime(t2);
         }
     }
 }
