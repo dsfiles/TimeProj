@@ -4,7 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
             Time t1 = new Time();
             Console.WriteLine(t1);
             Console.WriteLine(t1.hour);
@@ -15,8 +14,6 @@
             Console.WriteLine(t2.hour);
             Console.WriteLine(t2.minute);
             Console.WriteLine(t2.second);
-
-            Console.WriteLine();
 
             Console.WriteLine($"{t2.hour}:{t2.minute}:{t2.second}");
         }
