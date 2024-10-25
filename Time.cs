@@ -26,5 +26,10 @@ namespace TimeProj
             Console.WriteLine(t.hour + ":" + t.minute + ":" + t.second);
         }
 
+        public void WriteTime2(Time t)
+        {
+            Console.WriteLine(t.hour + ":" + t.minute + ":" + t.second);
+        }
+
     }
 }
